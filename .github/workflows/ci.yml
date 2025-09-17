@@ -1,0 +1,11 @@
+echo "name: CI Simples
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensagem de sucesso
+        run: echo 'Deploy bem-sucedido'
+" > .github/workflows/ci.yml
